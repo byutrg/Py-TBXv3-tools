@@ -1,0 +1,6 @@
+file:/E:/Dropbox/TBX/tbx-test%20suite/TBX-basic-sample.tbx:10:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element tbx therefile:/E:/Dropbox/TBX/tbx-test%20suite/TBX-basic-sample.tbx:133:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element langSec, got descrip
+file:/E:/Dropbox/TBX/tbx-test%20suite/TBX-basic-sample.tbx:133:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element conceptEntry failed to validate content
+<string>:0:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element ref failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/TBX-basic-sample.tbx:187:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element termSec has extra content: descrip
+file:/E:/Dropbox/TBX/tbx-test%20suite/TBX-basic-sample.tbx:175:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element langSec failed to validate content
+file:/E:/Dropbox/TBX/tbx-test%20suite/TBX-basic-sample.tbx:173:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element conceptEntry failed to validate content

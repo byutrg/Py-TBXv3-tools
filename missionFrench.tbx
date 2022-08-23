@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<?xml-model href="TBX-Basic_dialect/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="TBX-Basic_dialect/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx style="dca" type="TBX-Basic" xml:lang="en-US" xmlns="urn:iso:std:iso:30042:ed-2">
+	<tbxHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Church Glossary</title>
+			</titleStmt>
+			<sourceDesc>
+				<p>This a terminology database from church translators in France</p>
+			</sourceDesc>
+		</fileDesc>
+	</tbxHeader>
+	<text>
+        <body><?xml version='1.0' encoding="utf-8"?>
+
+<?xml-model href="TBX-Basic_dialect/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="TBX-Basic_dialect/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx style="dca" type="TBX-Basic" xml:lang="en-US" xmlns="urn:iso:std:iso:30042:ed-2">
+	<tbxHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Church Glossary</title>
+			</titleStmt>
+			<sourceDesc>
+				<p>This a terminology database from church translators in France</p>
+			</sourceDesc>
+		</fileDesc>
+	</tbxHeader>
+	<text>
+        <body><?xml version='1.0' encoding="utf-8"?>
+
+<?xml-model href="TBX-Basic_dialect/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="TBX-Basic_dialect/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx style="dca" type="TBX-Basic" xml:lang="en-US" xmlns="urn:iso:std:iso:30042:ed-2">
+	<tbxHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Church Glossary</title>
+			</titleStmt>
+			<sourceDesc>
+				<p>This a terminology database from church translators in France</p>
+			</sourceDesc>
+		</fileDesc>
+	</tbxHeader>
+	<text>
+        <body><?xml version='1.0' encoding="utf-8"?>
+
+<?xml-model href="TBX-Basic_dialect/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="TBX-Basic_dialect/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx style="dca" type="TBX-Basic" xml:lang="en-US" xmlns="urn:iso:std:iso:30042:ed-2">
+	<tbxHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Church Glossary</title>
+			</titleStmt>
+			<sourceDesc>
+				<p>This a terminology database from church translators in France</p>
+			</sourceDesc>
+		</fileDesc>
+	</tbxHeader>
+	<text>
+        <body>

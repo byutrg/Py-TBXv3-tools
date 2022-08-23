@@ -1,0 +1,1 @@
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/astronomyinvalid.tbx:32:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element langSec there

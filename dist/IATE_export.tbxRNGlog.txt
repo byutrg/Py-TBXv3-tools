@@ -1,0 +1,24 @@
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element , got nothingfile:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element , got nothingfile:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_TYPEVAL: Type ID doesn't allow value '1875432'
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element conceptEntry failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element langSec, got nothing
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute id for element conceptEntry
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_TYPEVAL: Type ID doesn't allow value '3509148'
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element conceptEntry failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element langSec, got nothing
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute id for element conceptEntry
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_TYPEVAL: Type ID doesn't allow value '1905007'
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element conceptEntry failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element langSec, got nothing
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute id for element conceptEntry
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_TYPEVAL: Type ID doesn't allow value '3568727'
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element conceptEntry failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element langSec, got nothing
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute id for element conceptEntry
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_TYPEVAL: Type ID doesn't allow value '3574127'
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element conceptEntry failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element langSec, got nothing
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute id for element conceptEntry
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_TYPEVAL: Type ID doesn't allow value '3573021'
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_ATTRVALID: Element conceptEntry failed to validate attributes
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element langSec, got nothing
+file:/E:/Dropbox/TBX/tbx-test%20suite/dist/IATE_export.tbx:1:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute id for element conceptEntry

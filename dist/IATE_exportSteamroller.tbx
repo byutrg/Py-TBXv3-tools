@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx xmlns="urn:iso:std:iso:30042:ed-2" type="TBX-Basic" style="dca" xml:lang="en">
+  <tbxHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>IATE dataset</title>
+      </titleStmt>
+      <sourceDesc>
+        <p>This is a TBX file downloaded from IATE. Please address any inquiries to iate@cdt.europa.eu.</p>
+      </sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="C1875432">
+        <descrip type="subjectField">information technology and data processing;research</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>quantum computation</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+          <termSec>
+            <term>QC</term>
+            <termNote type="termType">abbreviation</termNote>
+            <note>reliabilityCode::6</note>
+          </termSec>
+          <termSec>
+            <term>quantum computing</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>Quanteninformatik</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="C3509148">
+        <descrip type="subjectField">natural and applied sciences;information technology and data processing;technology</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>one-to-one matching</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+          <termSec>
+            <term>one-to-one comparison</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>1:1-Vergleich</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="C1905007">
+        <descrip type="subjectField">communications;digital technology;information security</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>single sign-on</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+          <termSec>
+            <term>SSO</term>
+            <termNote type="termType">abbreviation</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>einmalige Anmeldung</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+          <termSec>
+            <term>SSO</term>
+            <termNote type="termType">abbreviation</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="C3568727">
+        <descrip type="subjectField">technology</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>European Cloud Initiative</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>Europäische Cloud-Initiative</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="C3574127">
+        <descrip type="subjectField">computer system;technical regulations</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>cybersecurity certification</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>Zertifizierung der Cybersicherheit</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="C3573021">
+        <descrip type="subjectField">land transport;technology and technical regulations</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>automated vehicle</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+          <termSec>
+            <term>automated car</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>automatisiertes Fahrzeug</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+          <termSec>
+            <term>selbstfahrendes Auto</term>
+            <termNote type="termType">fullForm</termNote>
+            <note>reliabilityCode::9</note>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>
