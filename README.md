@@ -19,6 +19,12 @@ Select your file and click "Steamroll!" to run the output will be in the directo
 
 This will upgrade TBXv2 files into TBXv3. This is a work in progress and may not run correctly if at all. Your mileage may vary
 
+## Building a new version
+
+`pyinstaller integratedValidator.spec`
+
+New exe will be found in the `Dist` directory
+
 ---
 
 ## TODOS
