@@ -18,8 +18,8 @@ def updater(filename):
             newString = re.sub("langSet", "langSec", newString)
             newString = re.sub("tig", "termSec", newString)
             newString = re.sub("refObjectList", "refObjectSec", newString)
-            newfile = open("newfile.tbx", "w")
-            newfile.write(newString)
+            newFile = open(filename +"v3.tbx", "w")
+            newFile.write(newString)
             TbxBasic = steamroll(newFile)
 
             return "Updated"
