@@ -1,3 +1,4 @@
+from ast import Return
 from xml.etree.ElementTree import TreeBuilder
 import os
 from lxml import etree
@@ -74,7 +75,7 @@ def rngValidation(filename, _module):
     parsed_rng = etree.parse(rng_text)
     relaxng = etree.RelaxNG(parsed_rng)
 
-    tbx_text = open(filename)
+    tbx_text = open(filename, encoding="utf-8")
     tbx_doc = etree.parse(tbx_text)
 
     result = relaxng.validate(tbx_doc)
@@ -114,9 +115,17 @@ def browseFiles():
                                                        ("all files",
                                                         "*.*")))
     file_text.configure(text=filename)
+    result = tk.Label(tab1, text=filename)
+    result.grid(row=1, column=0)
+
 
 def validate():
     infile = file_text.cget("text")
+    if var.get() == 0:
+        result = tk.Label(tab1, text="Please Select a Dialect")
+        result.grid(row=6, column=0)
+        Return
+    print(var)
     if rngValidation(infile, var) and schematronValidation(infile, var):
         print("Your TBXv3 file is valid")
         result = tk.Label(tab1, text="Your TBXv3 file is valid")
@@ -137,7 +146,7 @@ file_text.grid(row=0, column=1)
 file_select = tk.Button(middle, text="Browse", command=browseFiles)
 file_select.grid(column=2, row=0)
 validate = tk.Button(fileSelection, text="Validate!", command=validate)
-validate.grid()
+validate.grid(column=0, row=3)
 fileSelection.grid(column=0, row = 0)
 versionPicker = tk.Frame(tab1)
 versionSelectMsg = tk.Label(versionPicker, text="Select TBX Dialect")
