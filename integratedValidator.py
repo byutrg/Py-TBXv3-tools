@@ -1,8 +1,6 @@
-from ast import Return
 from xml.etree.ElementTree import TreeBuilder
 import os
 from lxml import etree
-import requests
 # import saxon library
 import saxonpy
 # gui imports
@@ -29,8 +27,8 @@ def schematronValidation(filename, _module):
         xslt30_processor.transform_to_file(source_file=resource_path("./2020-10-16-TBXcoreGenericSchematron.sch"), stylesheet_file=resource_path("./schxslt-1.8.5/2.0/pipeline-for-svrl.xsl"), output_file=resource_path("tbxSchematron.xsl"))
     elif module == 2:
         xslt30_processor.transform_to_file(source_file=resource_path("./Min.sch"), stylesheet_file=resource_path("./schxslt-1.8.5/2.0/pipeline-for-svrl.xsl"), output_file=resource_path("tbxSchematron.xsl"))
-    elif module == 2:
-        xslt30_processor.transform_to_file(source_file=resource_path("./TBX-Basic_DCA.sch"), stylesheet_file=resource_path("./schxslt-1.8.5/2.0/pipeline-for-svrl.xsl"), output_file=resource_path("tbxSchematron.xsl"))
+    elif module == 3:
+        xslt30_processor.transform_to_file(source_file=resource_path("./2023-01-12-TBX-Basic_DCA_modifiedToEnforceTypes.sch"), stylesheet_file=resource_path("./schxslt-1.8.5/2.0/pipeline-for-svrl.xsl"), output_file=resource_path("tbxSchematron.xsl"))
 
     # second transform
     xslt30_processor.transform_to_file(source_file=filename, stylesheet_file=resource_path("./tbxSchematron.xsl"), output_file=filename+"SchematronReport.xml")
@@ -51,7 +49,7 @@ def schematronValidation(filename, _module):
         tbxTree = ET.parse(source=filename)
         for error in errorList:
             errorTagPath = error.get("location")
-            errorTagPath=errorTagPath.replace("Q", "")
+            errorTagPath = errorTagPath.replace("Q", "")
             errorTagPath_split = errorTagPath.split('/')
             location = tbxTree.getroot()
             for x in range (2, len(errorTagPath_split)):
@@ -67,7 +65,7 @@ def schematronValidation(filename, _module):
 def rngValidation(filename, _module):
     module = _module.get()
     if module == 1:
-        rng_text = open(resource_path("./2020-10-16-TBXcoreGenericRNG.rng"))
+        rng_text = open(resource_path("./2023-01-12-TBXcoreStructV03.rng"))
     elif module == 2:
         rng_text = open(resource_path("./Min.rng"))
     elif module == 3:
@@ -76,7 +74,13 @@ def rngValidation(filename, _module):
     relaxng = etree.RelaxNG(parsed_rng)
 
     tbx_text = open(filename, encoding="utf-8")
-    tbx_doc = etree.parse(tbx_text)
+
+    try:
+        tbx_doc = etree.parse(tbx_text)
+    except Exception as e:
+        message = tk.Label(tab1, text="RNG Error:\n" + str(e))
+        message.grid(row=4, column=0)
+        return False
 
     result = relaxng.validate(tbx_doc)
 
@@ -124,7 +128,7 @@ def validate():
     if var.get() == 0:
         result = tk.Label(tab1, text="Please Select a Dialect")
         result.grid(row=6, column=0)
-        Return
+        return
     print(var)
     if rngValidation(infile, var) and schematronValidation(infile, var):
         print("Your TBXv3 file is valid")
@@ -137,7 +141,7 @@ widgets = ttk.Notebook(window)
 tab1 = tk.Frame(window)
 widgets.add(tab1, text="Validator")
 fileSelection = tk.Frame(tab1)
-welcome = tk.Label(fileSelection,text="Welcome to the TBX core Validator\n What would like to validate?")
+welcome = tk.Label(fileSelection,text="Welcome to the TBX core Validator\n What would you like to validate?")
 welcome.grid(row=1, column=0, padx=10)
 middle = tk.Frame(fileSelection)
 middle.grid(row=2, column=0)

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx style="dca" type="TBX-Basic" xml:lang="EN" xmlns="urn:iso:std:iso:30042:ed-2">
+  <tbxHeader>
+    <fileDesc>
+      <sourceDesc><p>automatically created by Glossary Converter</p></sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+
+  <text>
+    <body>
+      <conceptEntry id="c1">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>agent stake president</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>président de pieu gestionnaire</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c2">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>CDOL</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>CDOL</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c3">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>church department heads</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>directeurs des départements de l’église</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c4">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>companionships</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>équipes</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c5">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>district leader</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>dirigeant de district</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c6">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Ecclesiastical Unit Leader Manual</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Manuel du dirigeant d’unité ecclésiastique</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c7">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>elder</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>elder</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c8">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>financial self-reliance</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>autonomie financière</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c9">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>financially self-reliant</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>financièrement autonome</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c10">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>high council</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>grand conseil</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c11">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>home stake</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>pieu d’origine</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c12">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>home ward</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>paroisse d’origine</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c13">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>junior companion</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>collègue junior</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c14">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>lead area seventy</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>soixante-dix d’interrégion responsable</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c15">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>museum docent</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>guide au musée</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c16">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Operation Manager Manual</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Manuel du responsable d’opération</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c17">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Senior Companion</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Collègue senior</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c18">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>senior missionary</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaire d'âge mûr</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c19">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>senior missionaries</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaire d'âge mûr</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c20">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>senior service mission</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>mission dédiée au service pour les plus de 26 ans</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c21">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>senior service missionary</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaire de plus de 26 ans dédié au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c22">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>senior service missionaries</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaires de plus de 26 ans dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c23">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>senior service missionary group</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>groupe de missionnaires de plus de 26 ans dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c24">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service mission</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>mission dédiée au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c25">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service mission leader</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>dirigeant des missionnaires dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c26">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service mission leaders</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>dirigeants des missionnaires dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c27">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Service Mission Office</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Bureau des missions dédiées au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c28">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service missionary</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaire dédié au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c29">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service missionaries</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaires dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c30">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Service Missionary Handbook</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Manuel du missionnaire dédié au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c31">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service missionary area</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>secteur des missionnaires  dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c32">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>service missionary area contact</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>contact pour le secteur des missionnaires dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c33">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Service Missionary Coordinator Manual</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Manuel du coordinateur des missionnaires dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c34">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Service Missionary Leader Manual</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Manuel du dirigeant des missionnaires dédiés au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c35">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>sister</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>sœur</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c36">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>sister leader</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>sœur dirigeante</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c37">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>stake</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>pieu</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c38">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>support advisor</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>conseiller en soutien</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c39">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>teaching missionaries</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>missionnaires dédiés à l’enseignement</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c40">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>transfer of missionaries</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>mutation des missionnaires</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c41">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Treasury Services Division Representative</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Représentant de la division de la trésorerie</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c42">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Vendor Setup and Change form</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Formulaire d'enregistrement de fournisseur et de modifications de renseignements</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c43">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Visual Identity Office</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Bureau de l'identité visuelle</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c44">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>volonteering</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>devenir bénévole</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c45">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>volunteer assistant recorder</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>greffier adjoint bénévole</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c46">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>website</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>site Internet</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c47">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Welfare and Self Reliance Committee</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Comité de l'entraide et de l'autonomie</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c48">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Welfare and Self Reliance Manager</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Directeur de l'entraide et de l'autonomie</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c49">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>WIFI</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Wi-Fi</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c50">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>young service missionary</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>jeune missionnaire dédié au service</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c51">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>zone leader lead (ZLL)</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>responsable des dirigeants de zone (ZLL)</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c52">
+        <langSec xml:lang="en">
+          <termSec>
+            <term>bishop’s storehouse</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>magasin de l’évêque</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>
+

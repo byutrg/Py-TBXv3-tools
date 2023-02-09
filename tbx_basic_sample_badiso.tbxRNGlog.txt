@@ -1,0 +1,1 @@
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badiso.tbx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONGNS: Element tbx has wrong namespace: expecting urn:iso:std:iso:30042:ed-2

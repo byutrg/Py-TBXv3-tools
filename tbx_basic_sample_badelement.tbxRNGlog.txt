@@ -1,0 +1,6 @@
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelement.tbx:26:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element langSec, got descrip
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelement.tbx:26:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element conceptEntry failed to validate content
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelement.tbx:99:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element comment there
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelement.tbx:82:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element termSec has extra content: descrip
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelement.tbx:70:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element langSec failed to validate content
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelement.tbx:68:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element conceptEntry failed to validate content

@@ -1,0 +1,7 @@
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:58:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element descripNote, got nothing
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:58:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element termSec has extra content: descripGrp
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:50:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element langSec failed to validate content
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:26:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element conceptEntry failed to validate content
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:72:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element langSec, got descrip
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:76:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element langSec failed to validate content
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badelementorder.tbx:72:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element conceptEntry failed to validate content

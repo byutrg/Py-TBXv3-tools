@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:error="https://doi.org/10.5281/zenodo.1495494#error"
+                        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:schxslt-api="https://doi.org/10.5281/zenodo.1495494#api"
+                        xmlns:schxslt="https://doi.org/10.5281/zenodo.1495494"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                        xmlns:tbx="urn:iso:std:iso:30042:ed-2">
+   <svrl:ns-prefix-in-attribute-values prefix="tbx" uri="urn:iso:std:iso:30042:ed-2"/>
+   <svrl:metadata xmlns:dct="http://purl.org/dc/terms/"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <dct:creator>
+         <dct:Agent>
+            <skos:prefLabel>SAXON/HE 9.9.1.5</skos:prefLabel>
+         </dct:Agent>
+      </dct:creator>
+      <dct:created>2023-02-01T12:17:55.728-07:00</dct:created>
+      <dct:source>
+         <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dct:creator>
+               <dct:Agent>
+                  <skos:prefLabel>SchXslt/1.8.5 SAXON/HE 9.9.1.5</skos:prefLabel>
+                  <schxslt.compile.typed-variables xmlns="https://doi.org/10.5281/zenodo.1495494#">true</schxslt.compile.typed-variables>
+               </dct:Agent>
+            </dct:creator>
+            <dct:created>2023-02-01T12:17:55.686-07:00</dct:created>
+         </rdf:Description>
+      </dct:source>
+   </svrl:metadata>
+   <svrl:active-pattern id="coreEnforecement"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:termNote"/>
+   <!--WARNING: Rule for context "tbx:*[@type]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <!--WARNING: Rule for context "*[@target]" shadowed by preceding rule-->
+   <svrl:suppressed-rule context="*[@target]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:fired-rule context="tbx:*[@type]"/>
+   <svrl:active-pattern id="XLIFF.inlineConstraints"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:active-pattern id="dialectEnforcement"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:tbx"/>
+   <svrl:fired-rule context="tbx:descrip/@type"/>
+   <svrl:fired-rule context="tbx:descrip/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:transac/@type"/>
+   <svrl:fired-rule context="tbx:transac/@type"/>
+   <svrl:fired-rule context="tbx:ref/@type"/>
+   <svrl:fired-rule context="tbx:xref/@type"/>
+   <svrl:fired-rule context="tbx:xref/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:descrip/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:descrip/@type"/>
+   <svrl:fired-rule context="tbx:descrip/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:termNote/@type"/>
+   <svrl:fired-rule context="tbx:descrip/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:admin/@type"/>
+   <svrl:fired-rule context="tbx:transac/@type"/>
+   <svrl:fired-rule context="tbx:transac/@type"/>
+   <svrl:fired-rule context="tbx:ref/@type"/>
+   <svrl:fired-rule context="tbx:xref/@type"/>
+   <svrl:active-pattern id="module.min.admin"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:admin[@type='customerSubset']"/>
+   <svrl:fired-rule context="tbx:admin[@type='customerSubset']"/>
+   <svrl:fired-rule context="tbx:admin[@type='customerSubset']"/>
+   <svrl:active-pattern id="module.min.descrip"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:descrip[@type='subjectField']"/>
+   <svrl:fired-rule context="tbx:descrip[@type='subjectField']"/>
+   <svrl:active-pattern id="module.min.termNote"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:termNote[@type='partOfSpeech']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='administrativeStatus']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='administrativeStatus']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='partOfSpeech']"/>
+   <svrl:active-pattern id="module.basic.admin"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:admin[@type='source']"/>
+   <svrl:fired-rule context="tbx:admin[@type='source']"/>
+   <svrl:fired-rule context="tbx:admin[@type='source']"/>
+   <svrl:fired-rule context="tbx:admin[@type='projectSubset']"/>
+   <svrl:fired-rule context="tbx:admin[@type='source']"/>
+   <svrl:fired-rule context="tbx:admin[@type='projectSubset']"/>
+   <svrl:fired-rule context="tbx:admin[@type='source']"/>
+   <svrl:fired-rule context="tbx:admin[@type='projectSubset']"/>
+   <svrl:active-pattern id="module.basic.descrip"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:descrip[@type='definition']"/>
+   <svrl:fired-rule context="tbx:descrip[@type='context']"/>
+   <svrl:fired-rule context="tbx:descrip[@type='definition']"/>
+   <svrl:fired-rule context="tbx:descrip[@type='context']"/>
+   <svrl:active-pattern id="module.basic.termNote"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:termNote[@type='termType']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='grammaticalGender']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='termLocation']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='termType']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='grammaticalGender']"/>
+   <svrl:fired-rule context="tbx:termNote[@type='termLocation']"/>
+   <svrl:active-pattern id="module.basic.transac"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:transac[@type='transactionType']"/>
+   <svrl:fired-rule context="tbx:transac[@type='transactionType']"/>
+   <svrl:fired-rule context="tbx:transac[@type='transactionType']"/>
+   <svrl:fired-rule context="tbx:transac[@type='transactionType']"/>
+   <svrl:active-pattern id="module.basic.ref"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:ref[@type='crossReference']"/>
+   <svrl:fired-rule context="tbx:ref[@type='crossReference']"/>
+   <svrl:active-pattern id="module.basic.xref"
+                        documents="file:///C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/tbx_basic_sample_badxmltag.tbx"/>
+   <svrl:fired-rule context="tbx:xref[@type='xGraphic']"/>
+</svrl:schematron-output>
