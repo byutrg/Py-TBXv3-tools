@@ -5,12 +5,12 @@ block_cipher = None
 
 
 a = Analysis(['integratedValidator.py'],
-             pathex=['.\Lib\site-packages\saxonpy\saxonc_home', '.\Lib\site-packages'],
-             binaries=[('.\Lib\site-packages\saxonpy\saxonc_home\libsaxonhec.dll' , '.\saxonpy\saxonc_home')],
+             pathex=[r'C:\Users\chadh\AppData\Local\Programs\Python\Python39\Lib\site-packages\saxonpy\saxonc_home', '.\Lib\site-packages'],
+             binaries=[(r'C:\Users\chadh\AppData\Local\Programs\Python\Python39\Lib\site-packages\saxonpy\saxonc_home\libsaxonhec.dll' , '.\saxonpy\saxonc_home')],
              datas=[("schxslt-1.8.5", "./schxslt-1.8.5"),
              ("2023-01-12-TBX-Basic_DCA_modifiedToEnforceTypes.sch","."),
              ("2023-01-12-TBXcoreStructV03.rng","."),
-             ('.\Lib\site-packages\saxonpy\saxonc_home' , '.\saxonpy\saxonc_home'),
+             (r'C:\Users\chadh\AppData\Local\Programs\Python\Python39\Lib\site-packages\saxonpy\saxonc_home' , '.\saxonpy\saxonc_home'),
              ('Min.sch','.'),('Min.rng','.'),
              ('TBXcoreStructV03_TBX-Basic_integrated.rng','.'),
              ('TBX-Basic_DCA.sch','.')],
