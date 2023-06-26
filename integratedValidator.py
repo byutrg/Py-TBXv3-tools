@@ -43,7 +43,7 @@ def schematronValidation(filename, _module):
     if(len(errorList) == 0):
         print("Passed Schematron")
         message = tk.Label(tab1, text="Passed Schematron")
-        message.grid(row=5, column=0)
+        message.grid(row=6, column=0)
         return True
     else:
         tbxTree = ET.parse(source=filename)
@@ -59,7 +59,7 @@ def schematronValidation(filename, _module):
             print(f"Error found in tag beginning on line {location.sourceline}: " + errorText.text)
             print(errorText)
             message = tk.Label(text=f"Error found in tag beginning on line {location.sourceline}: " + errorText.text)
-            message.grid(tab1, row=5, column=0)
+            message.grid(tab1, row=6, column=0)
             return False
 
 def rngValidation(filename, _module):
@@ -101,7 +101,47 @@ def rngValidation(filename, _module):
             message=tk.Label(tab1, text="RNG Error:\n"+str(log.last_error))
             message.grid(row=4, column=0)
             return False
-            
+
+# XSD Validator - currently only available for TBX Core dialect
+def xsdValidation(filename, _module):
+    module = _module.get()
+    if module == 1:
+        xsd_text = open(resource_path("./2023-05-26-TBX_core.xsd"))
+    else:
+        return
+    parsed_xsd = etree.parse(xsd_text)
+    xsd_schema = etree.XMLSchema(parsed_xsd)
+
+    tbx_text = open(filename, encoding="utf-8")
+
+    try:
+        tbx_doc = etree.parse(tbx_text)
+    except Exception as e:
+        message = tk.Label(tab1, text="XSD Error:\n" + str(e))
+        message.grid(row=5, column=0)
+        return False
+
+    result = xsd_schema.validate(tbx_doc)
+
+    if result == True:
+        print("Passed XSD")
+        message = tk.Label(tab1, text="Passed XSD")
+        message.grid(row=5, column=0)
+        return True
+    else:
+        try:
+            xsd_schema.assertValid(tbx_doc)
+        except:
+            log = xsd_schema.error_log
+            log_filename = filename + "XSD_log.txt"
+            print(log.last_error)
+            log_file = open(log_filename, "a")
+            log_file.write(str(log))
+            message = tk.Label(tab1, text="XSD Error:\n" + str(log.last_error))
+            message.grid(row=5, column=0)
+            return False
+
+
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
     try:
@@ -111,6 +151,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
 
     return os.path.join(base_path, relative_path)
+
 def browseFiles():
     filename = filedialog.askopenfilename(initialdir = "/",
                                           title = "Select a File",
@@ -127,13 +168,13 @@ def validate():
     infile = file_text.cget("text")
     if var.get() == 0:
         result = tk.Label(tab1, text="Please Select a Dialect")
-        result.grid(row=6, column=0)
+        result.grid(row=7, column=0)
         return
     print(var)
-    if rngValidation(infile, var) and schematronValidation(infile, var):
+    if rngValidation(infile, var) and schematronValidation(infile, var) and xsdValidation(infile, var):
         print("Your TBXv3 file is valid")
         result = tk.Label(tab1, text="Your TBXv3 file is valid")
-        result.grid(row=6, column=0)
+        result.grid(row=7, column=0)
 
 window = tk.Tk()
 window.title("TBX Utilities")
@@ -151,7 +192,7 @@ file_select = tk.Button(middle, text="Browse", command=browseFiles)
 file_select.grid(column=2, row=0)
 validate = tk.Button(fileSelection, text="Validate!", command=validate)
 validate.grid(column=0, row=3)
-fileSelection.grid(column=0, row = 0)
+fileSelection.grid(column=0, row=0)
 versionPicker = tk.Frame(tab1)
 versionSelectMsg = tk.Label(versionPicker, text="Select TBX Dialect")
 versionSelectMsg.pack()
@@ -162,6 +203,7 @@ R2 = tk.Radiobutton(versionPicker, text="TBX-Min", variable=var, value=2)
 R2.pack()
 R3 = tk.Radiobutton(versionPicker, text="TBX-Basic", variable=var, value=3)
 R3.pack()
+
 versionPicker.grid(column=1, row=0)
 
 tab2 = tk.Frame(window)
@@ -189,7 +231,7 @@ file_text.grid(row=0, column=1)
 file_select2 = tk.Button(middle2, text="Browse", command=browseFiles)
 file_select2.grid(column=2, row=0)
 
-Upgradetk = tk.Button(tab3, text="Upgrade", command= lambda: updater(file_text.cget("text")))
+Upgradetk = tk.Button(tab3, text="Upgrade", command=lambda: updater(file_text.cget("text")))
 Upgradetk.grid(row=3, column=0, pady=5)
 
 widgets.pack()

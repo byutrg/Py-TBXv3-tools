@@ -1,0 +1,1 @@
+file:/C:/Users/chadh/Documents/GitHub/Py-TBXv3-tools/BadFiles/Sample-tbx-v2.tbx:2:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element tbx, got martif
